@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import profileImage from '../assets/profile.jpg'; 
-import resumeFile from '../assets/resume.pdf'; 
+// import profileImage from '../assets/profile.jpg'; 
+// import resumeFile from '../assets/resume.pdf'; 
 
 export function Home() {
   return (
@@ -18,7 +18,7 @@ export function Home() {
 
      
       <motion.img
-        src={profileImage} 
+        src='/assets/Profile.jpg' // Replace with your image path
         alt="Profile"
         className="w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-white shadow-lg mb-6"
         initial={{ scale: 0 }}
@@ -50,7 +50,7 @@ export function Home() {
           I am a passionate developer with experience in building modern web applications. Check out my resume for more details.
         </p>
         <a
-          href={resumeFile} 
+          href='/assets/resume.pdf' // Replace with your resume file path
           className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
           download
         >

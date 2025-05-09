@@ -2,37 +2,37 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 
-import shakariMarketImage from '../assets/Shakari_Market.png';
-import foodDeliveryImage from '../assets/Food_website.png';
-import abinashGptImage from '../assets/Abinash_GPT.png';
-import weatherAppImage from '../assets/Weather_app.png';
+// import shakariMarketImage from '../assets/Shakari_Market.png';
+// import foodDeliveryImage from '../assets/Food_website.png';
+// import abinashGptImage from '../assets/Abinash_GPT.png';
+// import weatherAppImage from '../assets/Weather_app.png';
 
 export function Projects() {
   const projects = [
     {
       title: 'Shakari Market',
-      image: shakariMarketImage,
+      image: '/assets/Shakari_Market.png',
       description: 'An e-commerce platform for local markets, enabling seamless online shopping.',
       github: 'https://github.com/Abinash2985/Shakari-Market',
       demo: 'https://shakari-market.vercel.app/',
     },
     {
       title: 'Food Delivery App',
-      image: foodDeliveryImage,
+      image: '/assets/Food_website.png',
       description: 'A modern food delivery app with real-time tracking and user-friendly design.',
       github: 'https://github.com/Abinash2985/Food_Shop',
       demo: 'https://abinash-food-shop.vercel.app/',
     },
     {
       title: 'Abinash GPT',
-      image: abinashGptImage,
+      image: '/assets/Abinash_GPT.png',
       description: 'An AI-powered chatbot application built using GPT technology.',
       github: 'https://github.com/Abinash2985/Abinash_GPT',
       demo: 'https://abinash-gpt.vercel.app/',
     },
     {
       title: 'Weather App',
-      image: weatherAppImage,
+      image: '/assets/Weather_app.png',
       description: 'A weather forecasting app providing accurate and real-time weather updates.',
       github: 'https://github.com/Abinash2985/Weather_app',
       demo: 'https://abinash-weather-app.vercel.app/',
