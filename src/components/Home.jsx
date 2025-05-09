@@ -1,12 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import profileImage from '../assets/profile.jpg'; // Import the profile image
-import resumeFile from '../assets/resume.pdf'; // Import the resume file
+import profileImage from '../assets/profile.jpg'; 
+import resumeFile from '../assets/resume.pdf'; 
 
 export function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white px-4">
-      {/* Animated Heading */}
+    
       <motion.h1
         className="text-4xl md:text-6xl font-extrabold mb-6 text-center"
         initial={{ opacity: 0, y: -50 }}
@@ -16,9 +16,9 @@ export function Home() {
         Welcome to <span className="text-yellow-300">My Portfolio</span>
       </motion.h1>
 
-      {/* Profile Photo */}
+     
       <motion.img
-        src={profileImage} // Use the imported image
+        src={profileImage} 
         alt="Profile"
         className="w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-white shadow-lg mb-6"
         initial={{ scale: 0 }}
@@ -26,7 +26,7 @@ export function Home() {
         transition={{ duration: 1, delay: 0.5 }}
       />
 
-      {/* Animated Subheading */}
+     
       <motion.h2
         className="text-lg md:text-2xl font-medium text-center mb-8"
         initial={{ opacity: 0, y: 50 }}
@@ -36,7 +36,7 @@ export function Home() {
         Crafting beautiful and functional web experiences.
       </motion.h2>
 
-      {/* Resume Section */}
+     
       <motion.div
         className="bg-gradient-to-r from-white to-gray-200 text-black p-6 rounded-lg shadow-lg max-w-md text-center"
         initial={{ opacity: 0, y: 50 }}
@@ -50,7 +50,7 @@ export function Home() {
           I am a passionate developer with experience in building modern web applications. Check out my resume for more details.
         </p>
         <a
-          href={resumeFile} // Use the imported resume file
+          href={resumeFile} 
           className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
           download
         >

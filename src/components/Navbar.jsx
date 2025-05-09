@@ -6,12 +6,12 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 w-full bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center">
-        {/* Logo */}
+        
         <h1 className="text-2xl font-bold">
             Abinash Shaw
         </h1>
 
-        {/* Hamburger Menu for Mobile */}
+       
         <button
           className="md:hidden text-2xl focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
@@ -19,7 +19,7 @@ export function Navbar() {
           {isOpen ? '✖' : '☰'}
         </button>
 
-        {/* Navigation Links */}
+       
         <div
           className={`${
             isOpen ? 'block' : 'hidden'

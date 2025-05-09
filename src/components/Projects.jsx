@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-// Import images from the assets folder
+
 import shakariMarketImage from '../assets/Shakari_Market.png';
 import foodDeliveryImage from '../assets/Food_website.png';
 import abinashGptImage from '../assets/Abinash_GPT.png';
