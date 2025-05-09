@@ -1,12 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-
-// import shakariMarketImage from '../assets/Shakari_Market.png';
-// import foodDeliveryImage from '../assets/Food_website.png';
-// import abinashGptImage from '../assets/Abinash_GPT.png';
-// import weatherAppImage from '../assets/Weather_app.png';
-
 export function Projects() {
   const projects = [
     {

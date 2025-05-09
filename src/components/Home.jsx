@@ -1,7 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-// import profileImage from '../assets/profile.jpg'; 
-// import resumeFile from '../assets/resume.pdf'; 
 
 export function Home() {
   return (
